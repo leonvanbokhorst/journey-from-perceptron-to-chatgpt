@@ -13,25 +13,25 @@ This module covers the fundamental building block of neural networks: the percep
 
 This module contains the following exercises:
 
-1. **Perceptron Basics (`code/01_perceptron_basics.py`)**:
+1. **Perceptron Basics (`code/ex_01_perceptron_basics.py`)**:
 
    - Implement a perceptron from scratch
    - Train it on logic gates (AND/OR)
    - Visualize the decision boundaries
    - Demonstrate the perceptron's inability to learn XOR
 
-2. **Multi-Layer Perceptron for XOR (`code/02_mlp_xor.py`)**:
+2. **Multi-Layer Perceptron for XOR (`code/ex_02_mlp_xor.py`)**:
 
    - Implement a simple 2-layer network to solve XOR (preview of Module 2)
    - Compare with the single perceptron's performance
 
-3. **Decision Boundary Visualization (`code/03_decision_boundaries.py`)**:
+3. **Decision Boundary Visualization (`code/ex_03_decision_boundaries.py`)**:
 
    - Generate and visualize different datasets
    - Train perceptrons and observe their decision boundaries
    - Explore the effect of learning rate and initialization
 
-4. **Perceptron with PyTorch (`code/04_perceptron_pytorch.py`)**:
+4. **Perceptron with PyTorch (`code/ex_04_perceptron_pytorch.py`)**:
    - Reimplement the perceptron using PyTorch
    - Compare with the NumPy implementation
    - Introduction to using a deep learning framework
@@ -49,7 +49,7 @@ pip install -r ../../requirements.txt
 Each exercise is contained in a Python file that can be run directly:
 
 ```bash
-python exercises/module1/code/01_perceptron_basics.py
+python exercises/module1/code/ex_01_perceptron_basics.py
 ```
 
 ## Resources

@@ -14,28 +14,28 @@ This module explores how adding hidden layers to neural networks allows them to 
 
 This module contains the following exercises:
 
-1. **MLP Implementation (`code/01_mlp_implementation.py`)**:
+1. **MLP Implementation (`code/ex_01_mlp_implementation.py`)**:
 
    - Build a multi-layer perceptron from scratch using NumPy
    - Implement the forward pass with activation functions
    - Implement the backward pass (backpropagation algorithm)
    - Train the network on XOR and visualize the results
 
-2. **Activation Functions (`code/02_activation_functions.py`)**:
+2. **Activation Functions (`code/ex_02_activation_functions.py`)**:
 
    - Implement different activation functions (sigmoid, tanh, ReLU)
    - Visualize these functions and their derivatives
    - Compare their performance on the same problem
    - Understand why non-linearities are crucial for deep networks
 
-3. **Classification with MLPs (`code/03_mlp_classification.py`)**:
+3. **Classification with MLPs (`code/ex_03_mlp_classification.py`)**:
 
    - Apply MLPs to more complex classification problems
    - Implement mini-batch gradient descent
    - Explore the effect of network depth and width
    - Visualize decision boundaries for different architectures
 
-4. **MLP with PyTorch (`code/04_mlp_pytorch.py`)**:
+4. **MLP with PyTorch (`code/ex_04_mlp_pytorch.py`)**:
    - Implement an MLP using PyTorch's neural network modules
    - Compare with the NumPy implementation for speed and flexibility
    - Use PyTorch's automatic differentiation for backpropagation
@@ -54,7 +54,7 @@ pip install -r ../../requirements.txt
 Each exercise is contained in a Python file that can be run directly:
 
 ```bash
-python exercises/module2/code/01_mlp_implementation.py
+python exercises/module2/code/ex_01_mlp_implementation.py
 ```
 
 ## Resources

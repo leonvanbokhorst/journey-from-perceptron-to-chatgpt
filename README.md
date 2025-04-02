@@ -50,7 +50,7 @@ Each module contains Python code files, concept guides, and supplementary data t
 Each exercise is contained in a Python file that can be run directly:
 
 ```
-python exercises/module1/code/01_perceptron_basics.py
+python exercises/module1/code/ex_01_perceptron_basics.py
 ```
 
 For visualization exercises, the scripts will generate plots that show up in a window or are saved to disk.

@@ -212,14 +212,14 @@ try:
     current_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Import LSTM
-    lstm_path = os.path.join(current_dir, "01_lstm_implementation.py")
+    lstm_path = os.path.join(current_dir, "ex_01_lstm_implementation.py")
     lstm_spec = importlib.util.spec_from_file_location("lstm_module", lstm_path)
     lstm_module = importlib.util.module_from_spec(lstm_spec)
     lstm_spec.loader.exec_module(lstm_module)
     LSTM = lstm_module.LSTM
 
     # Import GRU
-    gru_path = os.path.join(current_dir, "02_gru_implementation.py")
+    gru_path = os.path.join(current_dir, "ex_02_gru_implementation.py")
     gru_spec = importlib.util.spec_from_file_location("gru_module", gru_path)
     gru_module = importlib.util.module_from_spec(gru_spec)
     gru_spec.loader.exec_module(gru_module)
