@@ -15,7 +15,7 @@ This module explores multi-layer perceptrons (MLPs) and the backpropagation algo
 
 This module contains the following exercises:
 
-1. **MLP Implementation from Scratch ([`code/ex_01_mlp_backprop.py`](code/ex_01_mlp_backprop.py))**:
+1. **MLP Implementation from Scratch ([`code/ex_01_mlp_implementation.py`](code/ex_01_mlp_implementation.py))**:
 
    - Build a multi-layer perceptron with configurable architecture
    - Implement forward and backward passes for backpropagation
@@ -29,14 +29,14 @@ This module contains the following exercises:
    - Understand the vanishing gradient problem
    - Implement activation function derivatives for backpropagation
 
-3. **Classification with MLPs ([`code/ex_03_classification.py`](code/ex_03_classification.py))**:
+3. **Classification with MLPs ([`code/ex_03_mlp_classification.py`](code/ex_03_mlp_classification.py))**:
 
    - Apply MLPs to multi-class classification problems
    - Implement mini-batch gradient descent
    - Visualize decision boundaries of the trained model
    - Compare different network architectures and their performance
 
-4. **PyTorch MLP Implementation ([`code/ex_04_pytorch_mlp.py`](code/ex_04_pytorch_mlp.py))**:
+4. **PyTorch MLP Implementation ([`code/ex_04_mlp_pytorch.py`](code/ex_04_mlp_pytorch.py))**:
    - Implement MLPs using PyTorch for automatic differentiation
    - Compare performance and implementation effort with NumPy version
    - Use PyTorch's built-in layers and optimization modules
@@ -55,7 +55,7 @@ pip install -r ../../requirements.txt
 Each exercise is contained in a Python file that can be run directly:
 
 ```bash
-python code/ex_01_mlp_backprop.py
+python code/ex_01_mlp_implementation.py
 ```
 
 ## Resources
