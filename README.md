@@ -9,7 +9,7 @@ The exercises are organized by module, following the curriculum structure:
 1. The Perceptron and Early Neural Networks ✅
 2. Multi-Layer Perceptrons and Backpropagation ✅
 3. Recurrent Neural Networks and Sequence Modeling ✅
-4. Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU)
+4. Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) ✅
 5. Sequence-to-Sequence Learning and Attention Mechanisms
 6. The Transformer Architecture – "Attention Is All You Need"
 7. Pre-trained Transformers and ChatGPT
@@ -85,6 +85,13 @@ Each module directory contains:
 - Time series prediction using RNNs
 - Character-level language model for text generation
 - RNN implementations using PyTorch, including a manual RNN cell and LSTM
+
+### Module 4: Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU)
+
+- LSTM implementation from scratch with NumPy
+- GRU implementation from scratch with detailed visualization of gates
+- Comparative performance analysis of RNNs, LSTMs, and GRUs on sequence prediction tasks
+- Sentiment analysis with bidirectional LSTM/GRU using PyTorch
 
 ## Contributing
 
