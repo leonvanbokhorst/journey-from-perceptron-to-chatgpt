@@ -8,7 +8,7 @@ The exercises are organized by module, following the curriculum structure:
 
 1. The Perceptron and Early Neural Networks ✅
 2. Multi-Layer Perceptrons and Backpropagation ✅
-3. Recurrent Neural Networks and Sequence Modeling
+3. Recurrent Neural Networks and Sequence Modeling ✅
 4. Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU)
 5. Sequence-to-Sequence Learning and Attention Mechanisms
 6. The Transformer Architecture – "Attention Is All You Need"
@@ -78,6 +78,13 @@ Each module directory contains:
 - Exploration of different activation functions
 - Classification with MLPs (comparison of architectures and mini-batch training)
 - PyTorch implementation of MLPs with automatic differentiation
+
+### Module 3: Recurrent Neural Networks and Sequence Modeling
+
+- Basic RNN implementation from scratch with NumPy
+- Time series prediction using RNNs
+- Character-level language model for text generation
+- RNN implementations using PyTorch, including a manual RNN cell and LSTM
 
 ## Contributing
 
