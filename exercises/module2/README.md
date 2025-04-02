@@ -1,45 +1,46 @@
 # Module 2: Multi-Layer Perceptrons and Backpropagation
 
-This module explores how adding hidden layers to neural networks allows them to solve complex, non-linearly separable problems. You'll learn the backpropagation algorithm for training multi-layer neural networks and implement it from scratch.
+This module explores multi-layer perceptrons (MLPs) and the backpropagation algorithm, which together form the foundation of modern deep learning. You'll learn how to train networks with multiple layers and implement the gradient-based optimization needed for effective learning.
 
 ## Learning Objectives
 
-- Understand how multi-layer perceptrons overcome the limitations of single-layer networks
-- Learn the backpropagation algorithm and how it efficiently computes gradients
-- Implement a complete neural network with backpropagation in Python
-- Explore different activation functions (sigmoid, ReLU) and their effects on training
-- Visualize the learning process and decision boundaries of neural networks
+- Understand the architecture of multi-layer neural networks
+- Learn the backpropagation algorithm for efficient weight updates
+- Implement MLPs from scratch using NumPy
+- Compare different activation functions and their impact on learning
+- Apply MLPs to more complex classification and regression problems
+- Understand the basics of optimization in neural networks
 
 ## Exercises
 
 This module contains the following exercises:
 
-1. **MLP Implementation (`code/ex_01_mlp_implementation.py`)**:
+1. **MLP Implementation from Scratch ([`code/ex_01_mlp_backprop.py`](code/ex_01_mlp_backprop.py))**:
 
-   - Build a multi-layer perceptron from scratch using NumPy
-   - Implement the forward pass with activation functions
-   - Implement the backward pass (backpropagation algorithm)
-   - Train the network on XOR and visualize the results
+   - Build a multi-layer perceptron with configurable architecture
+   - Implement forward and backward passes for backpropagation
+   - Visualize the gradient flow through the network
+   - Understand weight initialization and learning rate effects
 
-2. **Activation Functions (`code/ex_02_activation_functions.py`)**:
+2. **Activation Function Exploration ([`code/ex_02_activation_functions.py`](code/ex_02_activation_functions.py))**:
 
-   - Implement different activation functions (sigmoid, tanh, ReLU)
-   - Visualize these functions and their derivatives
-   - Compare their performance on the same problem
-   - Understand why non-linearities are crucial for deep networks
+   - Implement and visualize different activation functions (sigmoid, tanh, ReLU, leaky ReLU)
+   - Analyze the impact of activation functions on model convergence
+   - Understand the vanishing gradient problem
+   - Implement activation function derivatives for backpropagation
 
-3. **Classification with MLPs (`code/ex_03_mlp_classification.py`)**:
+3. **Classification with MLPs ([`code/ex_03_classification.py`](code/ex_03_classification.py))**:
 
-   - Apply MLPs to more complex classification problems
+   - Apply MLPs to multi-class classification problems
    - Implement mini-batch gradient descent
-   - Explore the effect of network depth and width
-   - Visualize decision boundaries for different architectures
+   - Visualize decision boundaries of the trained model
+   - Compare different network architectures and their performance
 
-4. **MLP with PyTorch (`code/ex_04_mlp_pytorch.py`)**:
-   - Implement an MLP using PyTorch's neural network modules
-   - Compare with the NumPy implementation for speed and flexibility
-   - Use PyTorch's automatic differentiation for backpropagation
-   - Learn modern deep learning workflows
+4. **PyTorch MLP Implementation ([`code/ex_04_pytorch_mlp.py`](code/ex_04_pytorch_mlp.py))**:
+   - Implement MLPs using PyTorch for automatic differentiation
+   - Compare performance and implementation effort with NumPy version
+   - Use PyTorch's built-in layers and optimization modules
+   - Implement early stopping and learning rate scheduling
 
 ## Setup
 
@@ -54,12 +55,20 @@ pip install -r ../../requirements.txt
 Each exercise is contained in a Python file that can be run directly:
 
 ```bash
-python exercises/module2/code/ex_01_mlp_implementation.py
+python code/ex_01_mlp_backprop.py
 ```
 
 ## Resources
 
-- **Concept Guide**: Read `guides/mlp_backprop_guide.md` for an in-depth explanation of multi-layer perceptrons and the backpropagation algorithm.
-- **Original Paper**: Rumelhart, Hinton & Williams (1986) – "Learning representations by back-propagating errors"
-- **Online Book**: Michael Nielsen's "Neural Networks and Deep Learning" – http://neuralnetworksanddeeplearning.com/
-- **Video Series**: 3Blue1Brown's videos on Gradient Descent and Backpropagation – https://www.youtube.com/watch?v=IHZwWFHWa-w
+- **Concept Guide**: Read [`guides/mlp_backprop_guide.md`](guides/mlp_backprop_guide.md) for an in-depth explanation of multi-layer perceptrons and the backpropagation algorithm.
+- **Backpropagation Paper**: Rumelhart et al. (1986) - ["Learning representations by back-propagating errors"](https://www.nature.com/articles/323533a0)
+- **Visual Explanation**: 3Blue1Brown's neural network series: [https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- **Interactive Tool**: TensorFlow Playground for visualizing neural networks: [https://playground.tensorflow.org/](https://playground.tensorflow.org/)
+
+## Previous Modules
+
+- [Module 1: The Perceptron and Early Neural Networks](../module1/README.md)
+
+## Next Module
+
+- [Module 3: Recurrent Neural Networks and Sequence Modeling](../module3/README.md)

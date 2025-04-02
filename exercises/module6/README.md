@@ -14,25 +14,25 @@ This module explores the revolutionary Transformer architecture as proposed in t
 
 This module contains the following exercises:
 
-1. **Self-Attention Mechanism (`code/ex_01_self_attention.py`)**:
+1. **Self-Attention Mechanism ([`code/ex_01_self_attention.py`](code/ex_01_self_attention.py))**:
 
    - Implement the scaled dot-product attention mechanism
    - Visualize attention patterns between sequence elements
    - Experiment with different attention patterns and masking
 
-2. **Multi-Head Attention (`code/ex_02_multi_head_attention.py`)**:
+2. **Multi-Head Attention ([`code/ex_02_multi_head_attention.py`](code/ex_02_multi_head_attention.py))**:
 
    - Build a multi-head attention module
    - Understand how multiple attention heads capture different relationships
    - Analyze and visualize what different heads learn
 
-3. **Transformer Encoder (`code/ex_03_transformer_encoder.py`)**:
+3. **Transformer Encoder ([`code/ex_03_transformer_encoder.py`](code/ex_03_transformer_encoder.py))**:
 
    - Implement a full Transformer encoder block
    - Build a stack of encoder layers
    - Process sequences and visualize the learned representations
 
-4. **Complete Transformer (`code/ex_04_complete_transformer.py`)**:
+4. **Complete Transformer ([`code/ex_04_complete_transformer.py`](code/ex_04_complete_transformer.py))**:
    - Implement a simplified Transformer architecture with encoder and decoder
    - Apply the model to a sequence-to-sequence task
    - Analyze the performance and attention patterns in the model
@@ -50,12 +50,21 @@ pip install -r ../../requirements.txt
 Each exercise is contained in a Python file that can be run directly:
 
 ```bash
-python exercises/module6/code/ex_01_self_attention.py
+python code/ex_01_self_attention.py
 ```
 
 ## Resources
 
-- **Concept Guide**: Read `guides/transformer_guide.md` for an in-depth explanation of the Transformer architecture, self-attention mechanisms, and positional encodings.
-- **Original Paper**: Vaswani et al. (2017) - "Attention Is All You Need" (https://arxiv.org/abs/1706.03762)
-- **Visual Explanation**: The Illustrated Transformer by Jay Alammar: https://jalammar.github.io/illustrated-transformer/
-- **Code Walkthrough**: The Annotated Transformer by Harvard NLP: http://nlp.seas.harvard.edu/annotated-transformer/
+- **Concept Guide**: Read [`guides/transformer_guide.md`](guides/transformer_guide.md) for an in-depth explanation of the Transformer architecture, self-attention mechanisms, and positional encodings.
+- **Original Paper**: Vaswani et al. (2017) - ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762)
+- **Visual Explanation**: The Illustrated Transformer by Jay Alammar: [https://jalammar.github.io/illustrated-transformer/](https://jalammar.github.io/illustrated-transformer/)
+- **Code Walkthrough**: The Annotated Transformer by Harvard NLP: [http://nlp.seas.harvard.edu/annotated-transformer/](http://nlp.seas.harvard.edu/annotated-transformer/)
+
+## Previous Modules
+
+- [Module 5: Sequence-to-Sequence Learning and Attention Mechanisms](../module5/README.md)
+- [Module 4: Long Short-Term Memory and Gated Recurrent Units](../module4/README.md)
+
+## Next Module
+
+- [Module 7: Pre-trained Transformers and ChatGPT](../module7/README.md)

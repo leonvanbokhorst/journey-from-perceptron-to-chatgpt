@@ -1,66 +1,74 @@
 # Module 3: Recurrent Neural Networks and Sequence Modeling
 
-This module introduces Recurrent Neural Networks (RNNs), which are designed to process sequential data by maintaining a form of memory about previous inputs. RNNs are crucial for tasks involving time series, natural language, audio processing, and other sequential data types.
+This module introduces recurrent neural networks (RNNs), which enable processing of sequential data by maintaining internal memory. You'll learn how RNNs handle variable-length input sequences and implement applications like time series prediction and text generation.
 
 ## Learning Objectives
 
-By the end of this module, you will be able to:
-
-1. Understand the architecture and mathematical formulation of RNNs
-2. Implement a basic RNN from scratch using NumPy
-3. Apply RNNs to sequence prediction problems
-4. Understand backpropagation through time (BPTT)
-5. Create a character-level language model
-6. Implement RNNs using PyTorch
+- Understand how recurrent neural networks process sequential data
+- Learn the math behind forward and backward propagation through time (BPTT)
+- Implement RNN cells from scratch using NumPy
+- Apply RNNs to practical sequence modeling tasks in natural language and time series
+- Recognize the limitations of vanilla RNNs in capturing long-term dependencies
 
 ## Exercises
 
-### Exercise 1: Basic RNN Implementation
+This module contains the following exercises:
 
-- Implement a basic RNN from scratch using NumPy
-- Train it on a simple sequence prediction task
-- Visualize the hidden state evolution
-- Gain intuition about RNN memory and information flow
+1. **Basic RNN Implementation ([`code/ex_01_rnn_implementation.py`](code/ex_01_rnn_implementation.py))**:
 
-### Exercise 2: Time Series Prediction
+   - Build a simple RNN cell from scratch using NumPy
+   - Implement forward and backward propagation through time
+   - Train the model to learn simple patterns
+   - Visualize hidden state dynamics
 
-- Apply RNNs to time series forecasting
-- Prepare time series data with appropriate windowing
-- Train models with different sequence lengths
-- Evaluate prediction accuracy and visualize results
+2. **Time Series Prediction ([`code/ex_02_time_series.py`](code/ex_02_time_series.py))**:
 
-### Exercise 3: Character-Level Language Model
+   - Apply RNNs to predict future values in time series data
+   - Compare different sequence lengths and their impact on prediction
+   - Implement sliding window approach for time series preprocessing
+   - Evaluate model performance and analyze errors
 
-- Build a character-level language model
-- Process text data for RNN training
-- Train the model to predict the next character in a sequence
-- Generate new text from the trained model
-- Explore the impact of temperature on sampling
+3. **Character-Level Language Model ([`code/ex_03_char_language_model.py`](code/ex_03_char_language_model.py))**:
 
-### Exercise 4: RNN with PyTorch
+   - Build a character-level language model using RNNs
+   - Train the model on text corpus to predict next character
+   - Generate new text by sampling from the trained model
+   - Experiment with temperature parameter for creativity
 
-- Implement RNNs using PyTorch's built-in modules
-- Compare implementation simplicity versus the from-scratch approach
-- Explore PyTorch's RNN, RNNCell, and other related modules
-- Apply the implementation to a real-world task
+4. **PyTorch RNN Implementation ([`code/ex_04_pytorch_rnn.py`](code/ex_04_pytorch_rnn.py))**:
+   - Implement RNN models using PyTorch's built-in modules
+   - Compare manual implementation with PyTorch's optimized version
+   - Use DataLoader for efficient training on sequence data
+   - Apply to a more complex sequence modeling task
 
-## Setup Instructions
+## Setup
 
-1. Make sure you have completed the installation steps in the main README
-2. Install additional dependencies if needed:
-   ```
-   pip install matplotlib numpy torch scikit-learn pandas
-   ```
-3. Navigate to this module's directory:
-   ```
-   cd exercises/module3
-   ```
+Make sure you have installed all requirements from the main project:
+
+```bash
+pip install -r ../../requirements.txt
+```
+
+## Running the Exercises
+
+Each exercise is contained in a Python file that can be run directly:
+
+```bash
+python code/ex_01_rnn_implementation.py
+```
 
 ## Resources
 
-- [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) - Blog post by Christopher Olah
-- [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) - Blog post by Andrej Karpathy
-- [PyTorch RNN Documentation](https://pytorch.org/docs/stable/nn.html#recurrent-layers)
-- Original RNN Papers:
-  - Elman, J. L. (1990). Finding structure in time. Cognitive science, 14(2), 179-211.
-  - Rumelhart, D. E., Hinton, G. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. Nature, 323(6088), 533-536.
+- **Concept Guide**: Read [`guides/rnn_guide.md`](guides/rnn_guide.md) for an in-depth explanation of RNN architecture, backpropagation through time, and applications.
+- **The Unreasonable Effectiveness of RNNs**: Karpathy's blog post on character-level language models: [http://karpathy.github.io/2015/05/21/rnn-effectiveness/](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+- **Understanding BPTT**: Olah's visual guide to backpropagation through time: [https://colah.github.io/posts/2015-08-Backprop/](https://colah.github.io/posts/2015-08-Backprop/)
+- **PyTorch Documentation**: RNN modules and functions: [https://pytorch.org/docs/stable/nn.html#recurrent-layers](https://pytorch.org/docs/stable/nn.html#recurrent-layers)
+
+## Previous Modules
+
+- [Module 2: Multi-Layer Perceptrons and Backpropagation](../module2/README.md)
+- [Module 1: The Perceptron and Early Neural Networks](../module1/README.md)
+
+## Next Module
+
+- [Module 4: Long Short-Term Memory and Gated Recurrent Units](../module4/README.md)

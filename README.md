@@ -11,8 +11,8 @@ The exercises are organized by module, following the curriculum structure:
 3. Recurrent Neural Networks and Sequence Modeling ✅
 4. Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) ✅
 5. Sequence-to-Sequence Learning and Attention Mechanisms ✅
-6. The Transformer Architecture – "Attention Is All You Need"
-7. Pre-trained Transformers and ChatGPT
+6. The Transformer Architecture – "Attention Is All You Need" ✅
+7. Pre-trained Transformers and ChatGPT ✅
 
 Each module contains Python code files, concept guides, and supplementary data to reinforce learning.
 
@@ -99,6 +99,20 @@ Each module directory contains:
 - Attention mechanism integration with sequence-to-sequence models
 - Implementation of key Transformer components (multi-head attention, positional encoding)
 - Neural machine translation with attention visualization
+
+### Module 6: The Transformer Architecture – "Attention Is All You Need"
+
+- Implementation of scaled dot-product self-attention mechanisms with visualization
+- Multi-head attention implementation with analysis of how different heads learn
+- Full Transformer encoder stack with representation visualization
+- Complete encoder-decoder Transformer for sequence-to-sequence tasks
+
+### Module 7: Pre-trained Transformers and ChatGPT
+
+- Fine-tuning BERT for text classification and sentiment analysis
+- Text generation with pre-trained GPT-2 models and parameter experimentation
+- Fine-tuning GPT-2 on specialized corpora with performance comparison
+- Building a complete AI assistant application with LLM API integration
 
 ## Contributing
 
