@@ -1,10 +1,10 @@
-# 🚀 Journey from Perceptron to ChatGPT
+# Journey from Perceptron to ChatGPT
 
 Welcome to an exciting hands-on exploration of neural networks! This repository traces the evolution of artificial intelligence from the humble perceptron of the 1950s to today's powerful large language models like ChatGPT.
 
 Whether you're a beginner curious about AI fundamentals or an experienced practitioner wanting to strengthen your understanding of neural network foundations, this curriculum offers a structured learning path with practical coding exercises at every step.
 
-## 🧠 Learning Journey
+## What you'll learn
 
 This curriculum is designed as a progressive journey through the key innovations that transformed neural networks from simple binary classifiers to sophisticated language models:
 
@@ -18,7 +18,7 @@ This curriculum is designed as a progressive journey through the key innovations
 
 Each module builds upon the previous ones, gradually introducing more sophisticated concepts while reinforcing your understanding through hands-on implementation.
 
-## 🔧 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -43,6 +43,7 @@ Each module builds upon the previous ones, gradually introducing more sophistica
    ```
 
 3. Install required packages:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -57,7 +58,7 @@ python exercises/module1/code/ex_01_perceptron_basics.py
 
 For visualization exercises, the scripts will generate plots that show up in a window or are saved to disk.
 
-## 📂 Repository Structure
+## Repository Structure
 
 Each module follows a consistent structure:
 
@@ -66,7 +67,7 @@ Each module follows a consistent structure:
 - **data/**: Data files used in the exercises (where applicable)
 - **README.md**: Overview, learning objectives, and instructions for the module
 
-## 📚 Module Highlights
+## Module Highlights
 
 ### [Module 1: The Perceptron and Early Neural Networks](exercises/module1/README.md)
 
@@ -117,7 +118,7 @@ Each module follows a consistent structure:
 - Customize language models for specific domains
 - Build a conversational AI assistant with modern LLM APIs
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you find bugs, have suggestions for improvements, or want to add enhancements:
 
@@ -127,12 +128,12 @@ Contributions are welcome! If you find bugs, have suggestions for improvements, 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - This curriculum draws inspiration from the historical development of neural network architectures
 - Special thanks to the research pioneers whose papers are referenced throughout the modules
-- Built with love for the AI community and lifelong learners everywhere
+- Built with love for the AI community and lifelong learners everywhere 💖
