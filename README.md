@@ -58,6 +58,18 @@ python exercises/module1/code/ex_01_perceptron_basics.py
 
 For visualization exercises, the scripts will generate plots that show up in a window or are saved to disk.
 
+### Curriculum Guide
+
+For a comprehensive guide to the learning journey, check out the [complete curriculum](curriculum.md) file. This document contains:
+
+- Detailed learning objectives for each module
+- Key concepts covered with historical context
+- Recommended readings from foundational papers
+- Practical exercises and their educational goals
+- Optional stretch assignments for deeper exploration
+
+The curriculum.md serves as the source material and theoretical foundation for all the exercises in this repository.
+
 ## Repository Structure
 
 Each module follows a consistent structure:
