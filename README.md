@@ -1,22 +1,24 @@
-# Journey from Perceptron to ChatGPT
+# 🚀 Journey from Perceptron to ChatGPT
 
-This repository contains hands-on exercises for the curriculum that traces the evolution of neural networks from the simple perceptron to modern transformer-based models like ChatGPT.
+Welcome to an exciting hands-on exploration of neural networks! This repository traces the evolution of artificial intelligence from the humble perceptron of the 1950s to today's powerful large language models like ChatGPT.
 
-## Overview
+Whether you're a beginner curious about AI fundamentals or an experienced practitioner wanting to strengthen your understanding of neural network foundations, this curriculum offers a structured learning path with practical coding exercises at every step.
 
-The exercises are organized by module, following the curriculum structure:
+## 🧠 Learning Journey
 
-1. The Perceptron and Early Neural Networks ✅
-2. Multi-Layer Perceptrons and Backpropagation ✅
-3. Recurrent Neural Networks and Sequence Modeling ✅
-4. Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) ✅
-5. Sequence-to-Sequence Learning and Attention Mechanisms ✅
-6. The Transformer Architecture – "Attention Is All You Need" ✅
-7. Pre-trained Transformers and ChatGPT ✅
+This curriculum is designed as a progressive journey through the key innovations that transformed neural networks from simple binary classifiers to sophisticated language models:
 
-Each module contains Python code files, concept guides, and supplementary data to reinforce learning.
+1. [The Perceptron and Early Neural Networks](exercises/module1/README.md)
+2. [Multi-Layer Perceptrons and Backpropagation](exercises/module2/README.md)
+3. [Recurrent Neural Networks and Sequence Modeling](exercises/module3/README.md)
+4. [Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU)](exercises/module4/README.md)
+5. [Sequence-to-Sequence Learning and Attention Mechanisms](exercises/module5/README.md)
+6. [The Transformer Architecture – "Attention Is All You Need"](exercises/module6/README.md)
+7. [Pre-trained Transformers and ChatGPT](exercises/module7/README.md)
 
-## Getting Started
+Each module builds upon the previous ones, gradually introducing more sophisticated concepts while reinforcing your understanding through hands-on implementation.
+
+## 🔧 Getting Started
 
 ### Prerequisites
 
@@ -28,20 +30,20 @@ Each module contains Python code files, concept guides, and supplementary data t
 
 1. Clone this repository:
 
-   ```
-   git clone https://github.com/yourusername/journey-from-perceptron-to-chatgpt.git
+   ```bash
+   git clone https://github.com/leonvanbokhorst/journey-from-perceptron-to-chatgpt.git
    cd journey-from-perceptron-to-chatgpt
    ```
 
 2. Create a virtual environment (recommended):
 
-   ```
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. Install required packages:
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
 
@@ -49,75 +51,88 @@ Each module contains Python code files, concept guides, and supplementary data t
 
 Each exercise is contained in a Python file that can be run directly:
 
-```
+```bash
 python exercises/module1/code/ex_01_perceptron_basics.py
 ```
 
 For visualization exercises, the scripts will generate plots that show up in a window or are saved to disk.
 
-## Structure
+## 📂 Repository Structure
 
-Each module directory contains:
+Each module follows a consistent structure:
 
 - **code/**: Python implementation files for each exercise
 - **guides/**: Markdown files explaining the concepts and theory
 - **data/**: Data files used in the exercises (where applicable)
+- **README.md**: Overview, learning objectives, and instructions for the module
 
-## Completed Modules
+## 📚 Module Highlights
 
-### Module 1: The Perceptron and Early Neural Networks
+### [Module 1: The Perceptron and Early Neural Networks](exercises/module1/README.md)
 
-- Basic perceptron implementation with visualization
-- Multi-class classification with perceptrons
-- Decision boundary visualization
-- PyTorch implementation of perceptrons
+- Build a perceptron algorithm from scratch with visualization
+- Implement multi-class classification strategies
+- Visualize decision boundaries and understand perceptron limitations
+- Create your first neural network using PyTorch
 
-### Module 2: Multi-Layer Perceptrons and Backpropagation
+### [Module 2: Multi-Layer Perceptrons and Backpropagation](exercises/module2/README.md)
 
-- MLP implementation with backpropagation from scratch
-- Exploration of different activation functions
-- Classification with MLPs (comparison of architectures and mini-batch training)
-- PyTorch implementation of MLPs with automatic differentiation
+- Implement MLPs and backpropagation from scratch
+- Explore different activation functions and their effects
+- Build classification models with configurable architectures
+- Leverage PyTorch for efficient neural network training
 
-### Module 3: Recurrent Neural Networks and Sequence Modeling
+### [Module 3: Recurrent Neural Networks and Sequence Modeling](exercises/module3/README.md)
 
-- Basic RNN implementation from scratch with NumPy
-- Time series prediction using RNNs
-- Character-level language model for text generation
-- RNN implementations using PyTorch, including a manual RNN cell and LSTM
+- Create RNN cells from scratch to process sequential data
+- Apply RNNs to time series prediction challenges
+- Build a character-level language model for text generation
+- Implement efficient RNNs using PyTorch's built-in modules
 
-### Module 4: Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU)
+### [Module 4: Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU)](exercises/module4/README.md)
 
-- LSTM implementation from scratch with NumPy
-- GRU implementation from scratch with detailed visualization of gates
-- Comparative performance analysis of RNNs, LSTMs, and GRUs on sequence prediction tasks
-- Sentiment analysis with bidirectional LSTM/GRU using PyTorch
+- Implement LSTM and GRU architectures from scratch
+- Visualize and understand gating mechanisms
+- Compare performance of different RNN variants
+- Create bidirectional networks for sentiment analysis
 
-### Module 5: Sequence-to-Sequence Learning and Attention Mechanisms
+### [Module 5: Sequence-to-Sequence Learning and Attention Mechanisms](exercises/module5/README.md)
 
-- Basic sequence-to-sequence model implementation from scratch
-- Attention mechanism integration with sequence-to-sequence models
-- Implementation of key Transformer components (multi-head attention, positional encoding)
-- Neural machine translation with attention visualization
+- Build encoder-decoder architectures for sequence transformation
+- Implement and visualize attention mechanisms
+- Create neural machine translation systems
+- Explore advanced attention variants (foundation for Transformers)
 
-### Module 6: The Transformer Architecture – "Attention Is All You Need"
+### [Module 6: The Transformer Architecture – "Attention Is All You Need"](exercises/module6/README.md)
 
-- Implementation of scaled dot-product self-attention mechanisms with visualization
-- Multi-head attention implementation with analysis of how different heads learn
-- Full Transformer encoder stack with representation visualization
-- Complete encoder-decoder Transformer for sequence-to-sequence tasks
+- Implement self-attention and multi-head attention mechanisms
+- Build Transformer encoder and decoder blocks
+- Create a complete Transformer for sequence-to-sequence tasks
+- Analyze attention patterns through visualization
 
-### Module 7: Pre-trained Transformers and ChatGPT
+### [Module 7: Pre-trained Transformers and ChatGPT](exercises/module7/README.md)
 
-- Fine-tuning BERT for text classification and sentiment analysis
-- Text generation with pre-trained GPT-2 models and parameter experimentation
-- Fine-tuning GPT-2 on specialized corpora with performance comparison
-- Building a complete AI assistant application with LLM API integration
+- Fine-tune BERT models for text classification
+- Generate text with pre-trained GPT-2
+- Customize language models for specific domains
+- Build a conversational AI assistant with modern LLM APIs
 
-## Contributing
+## 🤝 Contributing
 
-Feel free to submit pull requests or open issues if you find any problems or have suggestions for improvements.
+Contributions are welcome! If you find bugs, have suggestions for improvements, or want to add enhancements:
 
-## License
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- This curriculum draws inspiration from the historical development of neural network architectures
+- Special thanks to the research pioneers whose papers are referenced throughout the modules
+- Built with love for the AI community and lifelong learners everywhere
