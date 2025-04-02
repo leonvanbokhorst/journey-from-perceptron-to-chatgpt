@@ -14,32 +14,32 @@ This module explores sequence-to-sequence learning and attention mechanisms, whi
 
 This module contains the following exercises:
 
-1. **Basic Sequence-to-Sequence Model ([`code/ex_01_basic_seq2seq.py`](code/ex_01_basic_seq2seq.py))**:
+1. **Basic Sequence-to-Sequence Model ([`code/ex_01_seq2seq_basics.py`](code/ex_01_seq2seq_basics.py))**:
 
    - Implement a vanilla encoder-decoder architecture from scratch
    - Train the model on a simple sequence translation task
    - Observe the limitations when dealing with long sequences
    - Compare different encoder and decoder architectures
 
-2. **Sequence-to-Sequence with Attention ([`code/ex_02_seq2seq_attention.py`](code/ex_02_seq2seq_attention.py))**:
+2. **Attention Mechanism ([`code/ex_02_attention_mechanism.py`](code/ex_02_attention_mechanism.py))**:
 
    - Add attention mechanisms to the sequence-to-sequence model
    - Implement different attention types (Bahdanau/Additive vs. Luong/Multiplicative)
    - Visualize attention weights to see which input tokens the model focuses on
    - Compare performance against the basic sequence-to-sequence model
 
-3. **Neural Machine Translation ([`code/ex_03_neural_machine_translation.py`](code/ex_03_neural_machine_translation.py))**:
+3. **Transformer Components ([`code/ex_03_transformer_components.py`](code/ex_03_transformer_components.py))**:
 
+   - Implement fundamental components of the Transformer architecture
+   - Explore self-attention mechanisms (foundation for Transformers)
+   - Build multi-head attention modules
+   - Understand positional encoding and feed-forward networks
+
+4. **Neural Machine Translation ([`code/ex_04_neural_machine_translation.py`](code/ex_04_neural_machine_translation.py))**:
    - Apply sequence-to-sequence with attention to a translation task
    - Process and prepare parallel text datasets
    - Implement beam search for better generation
    - Evaluate translation quality using BLEU score
-
-4. **Advanced Attention Mechanisms ([`code/ex_04_advanced_attention.py`](code/ex_04_advanced_attention.py))**:
-   - Implement more sophisticated attention variants (multi-head attention)
-   - Explore self-attention mechanisms (foundation for Transformers)
-   - Apply to a practical task like text summarization
-   - Analyze model performance and attention patterns
 
 ## Setup
 
@@ -54,7 +54,7 @@ pip install -r ../../requirements.txt
 Each exercise is contained in a Python file that can be run directly:
 
 ```bash
-python code/ex_01_basic_seq2seq.py
+python code/ex_01_seq2seq_basics.py
 ```
 
 ## Resources

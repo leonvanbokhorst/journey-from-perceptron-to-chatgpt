@@ -28,14 +28,14 @@ This module contains the following exercises:
    - Compare the computational efficiency with LSTM
    - Visualize internal gate dynamics during processing
 
-3. **RNN Architecture Comparison ([`code/ex_03_architecture_comparison.py`](code/ex_03_architecture_comparison.py))**:
+3. **Sequence Comparison ([`code/ex_03_sequence_comparison.py`](code/ex_03_sequence_comparison.py))**:
 
    - Evaluate vanilla RNN, LSTM, and GRU on sequence prediction tasks
    - Compare performance on short vs. long sequences
    - Analyze training speed, convergence, and memory usage
    - Visualize hidden state dynamics across architectures
 
-4. **Sentiment Analysis with Bidirectional RNNs ([`code/ex_04_bidirectional_sentiment.py`](code/ex_04_bidirectional_sentiment.py))**:
+4. **Sentiment Analysis ([`code/ex_04_sentiment_analysis.py`](code/ex_04_sentiment_analysis.py))**:
    - Implement bidirectional LSTM and GRU models using PyTorch
    - Apply to sentiment analysis on a text dataset
    - Explore effects of hyperparameters on model performance

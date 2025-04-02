@@ -22,21 +22,21 @@ This module contains the following exercises:
    - Visualize the decision boundary and learning process
    - Experiment with different learning rates and weight initializations
 
-2. **Multi-Class Classification ([`code/ex_02_multiclass_perceptron.py`](code/ex_02_multiclass_perceptron.py))**:
+2. **MLP XOR Problem ([`code/ex_02_mlp_xor.py`](code/ex_02_mlp_xor.py))**:
 
-   - Extend the perceptron for multi-class classification
-   - Implement one-vs-all and one-vs-one strategies
-   - Compare performance on various datasets
-   - Explore the convergence properties of multi-class perceptrons
+   - Explore the limitations of perceptrons on the XOR problem
+   - Implement a simple multi-layer perceptron to solve XOR
+   - Compare single-layer vs multi-layer network capabilities
+   - Understand why non-linear activation functions are essential
 
-3. **Perceptron Limitations ([`code/ex_03_perceptron_limitations.py`](code/ex_03_perceptron_limitations.py))**:
+3. **Decision Boundaries ([`code/ex_03_decision_boundaries.py`](code/ex_03_decision_boundaries.py))**:
 
-   - Investigate the limitations of perceptrons on XOR and other non-linearly separable problems
-   - Visualize why linear models fail on these problems
-   - Experiment with feature engineering to overcome basic limitations
+   - Investigate the limitations of perceptrons on non-linearly separable problems
+   - Visualize decision boundaries for different datasets
+   - Experiment with feature engineering to improve classification
    - Understand the need for multi-layer neural networks
 
-4. **PyTorch Implementation ([`code/ex_04_pytorch_perceptron.py`](code/ex_04_pytorch_perceptron.py))**:
+4. **PyTorch Implementation ([`code/ex_04_perceptron_pytorch.py`](code/ex_04_perceptron_pytorch.py))**:
    - Implement perceptrons using PyTorch
    - Learn the basics of automatic differentiation
    - Compare implementations with NumPy and PyTorch

@@ -14,14 +14,14 @@ This module introduces recurrent neural networks (RNNs), which enable processing
 
 This module contains the following exercises:
 
-1. **Basic RNN Implementation ([`code/ex_01_rnn_implementation.py`](code/ex_01_rnn_implementation.py))**:
+1. **Basic RNN Implementation ([`code/ex_01_basic_rnn.py`](code/ex_01_basic_rnn.py))**:
 
    - Build a simple RNN cell from scratch using NumPy
    - Implement forward and backward propagation through time
    - Train the model to learn simple patterns
    - Visualize hidden state dynamics
 
-2. **Time Series Prediction ([`code/ex_02_time_series.py`](code/ex_02_time_series.py))**:
+2. **Time Series Prediction ([`code/ex_02_time_series_prediction.py`](code/ex_02_time_series_prediction.py))**:
 
    - Apply RNNs to predict future values in time series data
    - Compare different sequence lengths and their impact on prediction
@@ -35,7 +35,7 @@ This module contains the following exercises:
    - Generate new text by sampling from the trained model
    - Experiment with temperature parameter for creativity
 
-4. **PyTorch RNN Implementation ([`code/ex_04_pytorch_rnn.py`](code/ex_04_pytorch_rnn.py))**:
+4. **PyTorch RNN Implementation ([`code/ex_04_rnn_pytorch.py`](code/ex_04_rnn_pytorch.py))**:
    - Implement RNN models using PyTorch's built-in modules
    - Compare manual implementation with PyTorch's optimized version
    - Use DataLoader for efficient training on sequence data
@@ -54,7 +54,7 @@ pip install -r ../../requirements.txt
 Each exercise is contained in a Python file that can be run directly:
 
 ```bash
-python code/ex_01_rnn_implementation.py
+python code/ex_01_basic_rnn.py
 ```
 
 ## Resources

@@ -136,4 +136,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - This curriculum draws inspiration from the historical development of neural network architectures
 - Special thanks to the research pioneers whose papers are referenced throughout the modules
-- Built with love for the AI community and lifelong learners everywhere 💖
+- Generated with love for the AI community and lifelong learners everywhere 💖
