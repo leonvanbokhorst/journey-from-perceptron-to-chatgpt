@@ -1,0 +1,52 @@
+[
+  {
+    "category": "creative_writing",
+    "prompts": [
+      "Write a short story about an AI that develops consciousness and decides to become a baker.",
+      "Write a poem about the beauty of mathematics and its relationship to nature.",
+      "Describe an alien landscape on a planet with two suns and low gravity.",
+      "Write a dialogue between a time traveler from the past and a modern AI researcher.",
+      "Create a fairy tale involving quantum physics concepts explained simply."
+    ]
+  },
+  {
+    "category": "coding_tasks",
+    "prompts": [
+      "Write a Python function to find the longest palindromic substring in a given string.",
+      "Create a simple JavaScript function that validates an email address using regex.",
+      "Write a recursive algorithm to solve the Tower of Hanoi problem in pseudocode.",
+      "Design a SQL query to find the top 3 customers who spent the most money in each month.",
+      "Implement a simple neural network class in Python that can perform forward propagation."
+    ]
+  },
+  {
+    "category": "educational_questions",
+    "prompts": [
+      "Explain the process of photosynthesis as if teaching a middle school student.",
+      "What are the main differences between classical and quantum computing?",
+      "Describe the water cycle and its importance to Earth's ecosystems.",
+      "Explain how the immune system recognizes and fights pathogens.",
+      "What is the theory of relativity and how did it change our understanding of physics?"
+    ]
+  },
+  {
+    "category": "business_writing",
+    "prompts": [
+      "Draft a professional email requesting a meeting with a potential investor.",
+      "Write a project proposal for implementing a new AI system in a retail company.",
+      "Create a marketing description for a new smartphone that highlights its AI features.",
+      "Compose a business analysis report on the impact of machine learning in healthcare.",
+      "Write a professional LinkedIn post announcing a company's new AI ethics guidelines."
+    ]
+  },
+  {
+    "category": "problem_solving",
+    "prompts": [
+      "How would you design a smart home system that optimizes energy efficiency?",
+      "Describe a strategy to reduce bias in machine learning algorithms.",
+      "How could we use AI to improve education systems while maintaining human connection?",
+      "Propose a solution for reducing traffic congestion in urban areas using smart technology.",
+      "How would you design an AI system to help with disaster response and management?"
+    ]
+  }
+] 
